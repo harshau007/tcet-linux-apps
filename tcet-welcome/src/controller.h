@@ -15,7 +15,6 @@ public:
     Q_INVOKABLE static void runCommand(const QString &command);
     Q_INVOKABLE static void runCommand(const QString &command, const QString &desktopFilename);
     Q_INVOKABLE bool networkAlreadyConnected();
-    Q_INVOKABLE bool userFeedbackAvailable();
     Q_INVOKABLE QStringList distroPages();
 
     Q_PROPERTY(QString newPlasmaVersion MEMBER m_newPlasmaVersion NOTIFY newPlasmaVersionChanged)

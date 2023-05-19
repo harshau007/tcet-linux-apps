@@ -2,9 +2,6 @@
 # SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
 # SPDX-FileCopyrightText: 2022 Nate Graham <nate@kde.org>
 
-set(HAVE_KUSERFEEDBACK ${KUserFeedback_FOUND})
-configure_file(kuserfeedbacksettings.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/kuserfeedbacksettings.h)
-
 add_executable(tcet-welcome main.cpp controller.cpp resources.qrc module.cpp)
 
 target_compile_definitions(tcet-welcome PRIVATE "DISTRO_PAGE_PATH=\"${DISTRO_PAGE_PATH}\"")
