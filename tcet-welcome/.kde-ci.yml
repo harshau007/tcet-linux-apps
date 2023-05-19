@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: None
+# SPDX-License-Identifier: CC0-1.0
+
+Dependencies:
+- 'on': ['@all']
+  'require':
+    'frameworks/extra-cmake-modules': '@latest'
+    'frameworks/ki18n': '@latest'
+    'frameworks/kirigami': '@latest'
+    'frameworks/kcoreaddons': '@latest'
+    'frameworks/kdbusaddons': '@latest'
+    'frameworks/kdeclarative': '@latest'
+    'frameworks/kio': '@latest'
+    'frameworks/knewstuff': '@latest'
+    'frameworks/knotifications': '@latest'
+    'frameworks/plasma-framework': '@latest'
+    'frameworks/kwindowsystem': '@latest'
+    'network/kaccounts-integration': '@stable'
+    'network/kaccounts-providers': '@stable'
+Options:
+  require-passing-tests-on: [ 'Linux', 'FreeBSD' ]
