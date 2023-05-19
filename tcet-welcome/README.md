@@ -4,9 +4,9 @@
 -->
 # Plasma Welcome App
 
-A Friendly onboarding wizard for Plasma
+A Guided Setup Experience For TCET Linux
 
-Welcome Center is the perfect introduction to KDE Plasma! It can help you learn how to connect to the internet, install apps, customize the system, and more!
+TCET Welcome is the perfect introduction to KDE Plasma! It can help you learn how to connect to the internet, install apps, customize the system, and more!
 
 There are two usage modes:
 - Run the app normally and it will show a welcome/onboarding wizard.
@@ -21,7 +21,7 @@ There are two usage modes:
 ![Sixth page](https://cdn.kde.org/screenshots/tcet-welcome/tcet-welcome-page-6.png)
 
 
-# Extending Welcome Center with custom pages
+# Extending TCET Welcome with custom pages
 Custom distro-specific pages can be embedded in the app, and will appear right before the "Join Us Today" page. Only content that is safely skippable should be added, since the user can close the app at any time, potentially before they see your custom pages.
 
 To make custom pages visible to the app, place them in `/usr/share/tcet-welcome-extra-pages/`, prefixed with a number and a dash. For example if you define two pages with the following names:
