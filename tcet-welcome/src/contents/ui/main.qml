@@ -120,7 +120,6 @@ Kirigami.ApplicationWindow {
             pageStack.push(powerfulWhenNeeded);
             pageStack.push(discover);
             pageStack.push(discord);
-            pageStack.push(kcm_kaccounts);
 
             // Append any distro-specific pages that were found
             let distroPages = Controller.distroPages()
@@ -150,22 +149,6 @@ Kirigami.ApplicationWindow {
     PowerfulWhenNeeded {id: powerfulWhenNeeded; visible: false}
     Discover {id: discover; visible: false}
     Discord {id: discord; visible: false}
-    KCM {
-        id: kcm_kaccounts
-
-        visible: false
-
-        heading: i18nc("@title: window", "Connect Your Online Accounts")
-        description: i18nc("@info:usagetip", "This will let you access their content in KDE apps. You can set it up in System Settings, and here too.")
-        showSeparator: true
-
-        Module {
-            id: moduleAccounts
-            path: "kcm_kaccounts"
-        }
-        kcm: moduleAccounts.kcm
-        internalPage: moduleAccounts.kcm.mainUi
-    }
     Contribute {id: contribute; visible: false}
     Donate {id: donate; visible: false}
 }
