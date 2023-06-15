@@ -14,7 +14,6 @@ set(REQUIRED_QT_VERSION 5.15.2)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
 
-include(KDEClangFormat)
 include(KDEGitCommitHooks)
 include(KDEInstallDirs)
 include(KDECMakeSettings)
