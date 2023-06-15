@@ -36,7 +36,7 @@ ecm_setup_version(${PROJECT_VERSION}
     VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/tcet-welcome-version.h"
 )
 
-find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED COMPONENTS Core Gui Network Qml QuickControls2 Svg) REQUIRED COMPONENTS Kirigami2 CoreAddons ConfigWidgets DBusAddons Declarative I18n KIO NewStuff Notifications Plasma Service WindowSystem)
+find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED COMPONENTS Core Gui Network Qml QuickControls2 Svg)
 
 ecm_set_disabled_deprecation_versions(QT 5.15.2
     KF 5.101
