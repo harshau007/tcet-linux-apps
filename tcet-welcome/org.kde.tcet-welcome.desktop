@@ -93,5 +93,5 @@ Name[zh_CN]=欢迎中心
 Name[zh_TW]=歡迎中心
 SingleMainWindow=true
 Type=Application
-OnlyShowIn=KDE;XFCE;
+OnlyShowIn=KDE;XFCE;GNOME;
 X-KDE-autostart-condition=tcet-welcomerc:General:ShouldShow:true
