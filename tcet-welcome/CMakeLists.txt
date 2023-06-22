@@ -10,7 +10,7 @@ include(FeatureSummary)
 
 set(PROJECT_VERSION "5.27.5")
 set(REQUIRED_QT_VERSION 5.15.2)
-set(KF5_MIN_VERSION 5.98)
+set(KF5_MIN_VERSION 5.1)
 
 find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 
