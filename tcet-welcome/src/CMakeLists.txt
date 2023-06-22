@@ -12,8 +12,6 @@ target_link_libraries(tcet-welcome
     Qt::Network
     Qt::Qml
     Qt::Quick
-    Qt::Qt5QuickControls2Config
-    Qt::qt5quickcontrols2-config
     Qt::QuickControls2
     Qt::Svg
     KF5::I18n
